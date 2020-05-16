@@ -84,7 +84,7 @@ holiday_hash.collect do |a|
   
 
 
-
+end
 end
 
 def all_holidays_with_bbq(holiday_hash)
