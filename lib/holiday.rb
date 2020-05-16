@@ -66,6 +66,7 @@ holiday_hash[:winter].collect do |a,b|
   b.each do |a|
     supplies << a
   end
+end
   supplies
 end
 
