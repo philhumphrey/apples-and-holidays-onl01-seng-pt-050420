@@ -101,11 +101,13 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 holiday_names = []
-holiday_hash.each do |a|
-  a[].include? ("BBQ")
-  if true 
-    holiday_names << a[]
+holiday_hash.collect do |a,b|
+b.collect do |c,d|
+  if d.include? ("BBQ")
+    holiday_names << c
+    holiday_names
   end
+end
 end
 end
 
