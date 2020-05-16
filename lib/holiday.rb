@@ -84,7 +84,7 @@ holiday_hash.collect do |a|
   collection << a
 end
 collection.each do |b|
-  
+  print b
   
   
 end
