@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
 
-holiday_hash.each do |a|
+holiday_hash.collect do |a|
   a.to_s
   
 end
