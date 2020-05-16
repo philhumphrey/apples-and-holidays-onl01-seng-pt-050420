@@ -79,7 +79,9 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 
-holiday_hash.collect 
+holiday_hash.collect do |a|
+  puts a
+  
 
 
 
