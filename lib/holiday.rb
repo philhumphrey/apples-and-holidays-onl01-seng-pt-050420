@@ -107,7 +107,7 @@ holiday_hash.each do |a|
     holiday_names << a[]
   end
 end
-
+end
 
 
 
