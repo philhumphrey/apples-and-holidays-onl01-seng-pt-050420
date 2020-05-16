@@ -55,7 +55,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 supplies = []
 holiday_hash[:winter].collect do |a,b|
   b.each do |a|
-    
+    supplies << a
   
 
 end
