@@ -105,8 +105,9 @@ holiday_hash.collect do |a,b|
 b.collect do |c,d|
   if d.include? ("BBQ")
     holiday_names << c
-    holiday_names
+    
   end
+  holiday_names
 end
 end
 end
