@@ -65,9 +65,8 @@ def all_winter_holiday_supplies(holiday_hash)
 holiday_hash[:winter].collect do |a,b|
   b.each do |a|
     supplies << a
-  
-  
-
+  end
+  supplies
 end
 
 def all_supplies_in_holidays(holiday_hash)
