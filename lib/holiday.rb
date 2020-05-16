@@ -83,6 +83,7 @@ collection = []
 holiday_hash.collect do |a|
   a.collect do |b|
   collection << a
+  b
   
   
   
