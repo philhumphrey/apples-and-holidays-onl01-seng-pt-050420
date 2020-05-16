@@ -35,13 +35,7 @@ holiday_hash[:winter].each do |holiday, decorations|
   decorations << supply
   
 
-
-# {:winter => {
-#   #     :christmas => ["Lights", "Wreath"],
-#   #     :new_years => ["Party Hats"]
-
-
-
+end
 end
 
 
