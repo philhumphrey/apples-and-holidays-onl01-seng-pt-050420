@@ -31,7 +31,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # Christmas AND the New Year's arrays
 
 
-holiday_supplies.to_s 
+holiday_supplies.to_s
+binding.pry
 
 # {:winter => {
 #   #     :christmas => ["Lights", "Wreath"],
