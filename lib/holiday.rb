@@ -107,9 +107,9 @@ b.collect do |c,d|
     holiday_names << c
     
   end
-  holiday_names
 end
 end
+holiday_names
 end
 
 
